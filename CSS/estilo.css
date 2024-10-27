@@ -1,0 +1,59 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #46d65e;
+    color: white;
+    padding: 10px 0;
+}
+header h1 {
+    margin: 200;
+}
+main {
+    margin: 100px;
+}
+p {
+    font-size: 16px;
+    color: #333;
+}
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.instagram-images img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 100px;
+}
+body {
+    border-color: rgb(30, 0, 255);
+    border-style: solid;
+    border-width: 10px;
+}
+body {
+    background: rgb(198, 198, 194);
+}
+h1, h2, h3 {
+text-align: center;
+}
+p {
+text-align: justify;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+position: fixed; /* Fixa o rodapé no fundo da página */
+bottom: 0;
+width: 100%;
+}
+</style>
