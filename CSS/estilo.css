@@ -1,10 +1,29 @@
-@charset "UTF-8"
+@charset "UTF-8";
 body {
-    background-color: white;
+    background-color: rgb(215, 222, 211);
     color: rgba (0,0,0,1);
+
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+   
+}
+
+figure.foto1 {
+    border: 5px solid green;
+    position: relative;
+    }
+
+figure.foto1 img {
+    width: 50%;
+    height: 50%;
+}
+
+figure.foto1 figcaption {
+    position: absolute;
+    top: 10px;
+    box-sizing: border-box;
+
 }
