@@ -9,12 +9,8 @@ p {
     text-align: justify;
     text-indent: 50px;
    
+   
 }
-
-figure.foto1 {
-    border: 5px solid green;
-    position: relative;
-    }
 
 figure.foto1 img {
     width: 50%;
