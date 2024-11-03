@@ -1,25 +1,62 @@
 @charset "UTF-8";
+
+/* Estilo do corpo */
 body {
     background-color: rgb(215, 222, 211);
-    color: rgba (0,0,0,1);
-
+    color: rgba(0, 0, 0, 1);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilo para parágrafos */
 p {
     text-align: justify;
     text-indent: 50px;
-   
-   
+    margin: 20px;
 }
 
+/* Centraliza o cabeçalho */
+header {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilo para as imagens do quadro */
+figure.quadro img, 
 figure.foto1 img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 
+/* Estilo para figcaption de foto1 */
 figure.foto1 figcaption {
     position: absolute;
     top: 10px;
     box-sizing: border-box;
+}
 
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Estilos da galeria no main */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
