@@ -8,6 +8,26 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Estilo para o container A4 */
+.container-a4 {
+    width: 21cm;
+    height: 29.7cm;
+    background-color: #d3d3d3; /* Cinza claro */
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+/* Parte do fundo em preto */
+.parte-preta {
+    width: 100%;
+    height: 5cm; /* Ajuste a altura conforme necessário */
+    background-color: #000000; /* Preto */
+    position: absolute;
+    bottom: 0;
+}
 
 /* Estilo para parágrafos */
 p {
