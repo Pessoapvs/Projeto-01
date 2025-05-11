@@ -28,6 +28,7 @@ O objetivo principal deste curso é fornecer:
 - **CSS3**
 - **JavaScript** (para a interatividade da plataforma)
 - **GitHub Pages** (para o hosting do site)
+- **Git (controle de Verção)
 
 ## 💡 Como Contribuir
 
